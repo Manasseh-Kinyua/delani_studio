@@ -32,3 +32,12 @@
   padding-bottom: 30px;
   text-align: center;
 }
+
+.services {
+  padding-top: 40px;
+  text-align: center;
+  background-image: url('../assets/backgrounds/s_image.jpg');
+  height: 500px;
+  color: white;
+  padding-top: 160px;
+}
