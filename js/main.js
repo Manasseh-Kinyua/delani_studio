@@ -1,0 +1,11 @@
+$("document").ready(function(){
+  $("#design").click(function(){
+    $("#description1").toggle();
+  });
+  $("#dev").click(function(){
+    $("#description2").toggle();
+  });
+  $("#management").click(function(){
+    $("#description3").toggle();
+  });
+});
