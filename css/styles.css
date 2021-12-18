@@ -61,3 +61,7 @@
 .form textarea {
   width: 460px;
 }
+
+.description {
+  display: none;
+}
