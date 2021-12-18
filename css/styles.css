@@ -47,3 +47,17 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.form {
+  text-align: center;
+  background-image: url('../assets/backgrounds/c_image.jpg');
+  height: 500px;
+}
+
+.form input {
+  width: 400px;
+}
+
+.form textarea {
+  width: 460px;
+}
