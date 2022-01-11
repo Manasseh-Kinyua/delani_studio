@@ -17,6 +17,29 @@ $("document").ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $(".name").hover(function () {
+    $(this).css("opacity", "0.6");
+    $(this).fadeOut(10000);
+  });
+});
+
+function myFunction(event) {
+  event.preventDefault();
+
+  var name = document.getElementById("name").value;
+  console.log(name);
+  var email = document.getElementById("email").value;
+  console.log(email);
+  var message = document.getElementById("message").value;
+  console.log(message);
+  if (!(message === " ")) {
+    alert(
+      "Thank you for contacting us," + name + ".We have received your message"
+    );
+  }
+}
+
 /*$("document").ready(function () {
   $(".col-md-3").hover(function () {
     $("img").css("background-color", "white");
