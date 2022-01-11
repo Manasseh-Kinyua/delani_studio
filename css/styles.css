@@ -74,3 +74,18 @@
 #description3 {
   display: none;
 }
+
+.name {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: white;
+  border: solid;
+  color: turquoise;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  font-size: 2em ;
+  opacity: 0;
+}
