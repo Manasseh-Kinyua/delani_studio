@@ -15,6 +15,11 @@ $("document").ready(function () {
   $(".col-md-3 img").hover(function () {
     $("this").css("color", "white");
   });
+
+  $(".name").hover(function () {
+    $(this).css("opacity", "0.6");
+    $(this).fadeOut(10000);
+  });
 });
 
 $(document).ready(function () {
@@ -40,8 +45,3 @@ function myFunction(event) {
   }
 }
 
-/*$("document").ready(function () {
-  $(".col-md-3").hover(function () {
-    $("img").css("background-color", "white");
-  });
-}); */

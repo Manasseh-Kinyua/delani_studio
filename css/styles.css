@@ -75,6 +75,14 @@
   display: none;
 }
 
+form input {
+  background-color: inherit;
+}
+
+form textarea {
+  background-color: inherit;
+}
+
 .name {
   position: absolute;
   top: 20px;
@@ -84,7 +92,7 @@
   background-color: white;
   border: solid;
   color: turquoise;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: sans-serif;
   text-align: center;
   font-size: 2em ;
   opacity: 0;
